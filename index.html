@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<!--esto define el idioma-->
+<!--Ctrl + S-->
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <title>Nombre de Chica</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+
+
+</head>
+<body>
+    <!-- ESTO SERIA EL LA BARRA DE NAVEGACION RESPONSIVE-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <!--IMAGEN DEL LOGO-->
+                <img src="logo.png" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <!-- ESTO SERIA MENU -->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Acerca-de-mi">Acerca de mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Mis-trabajos">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contacto">Contacto</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="Hero-Section" class="text-light text-end py-5 mt-5">
+        <div class="container">
+            <div class="ms-auto col-12 col-md-7 ">
+                <h1 class="display-1 fw-bold my-5">
+                    Comidas del fin <br> del mundo
+                </h1>
+                <p class="my-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, accusamus iusto quibusdam
+                    dignissimos labore sequi. Cupiditate reiciendis eius dolore, illum adipisci harum voluptas iste
+                    mollitia inventore provident labore voluptatum nemo.
+                </p>
+                <div class="mb-5 pb-5">
+                    <button class="btn btn-lg btn-outline-info text-light me-4">Trabajos</button>
+                    <button class="btn btn-lg btn-info text-light">Contacto</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="carousel-inicio" class="container-sm container-lg my-5 p-5">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagenes/card-1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/card-2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/card-3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-2 col-md-2 col-lg-2" style="background-color: aquamarine; height: 500px;">
+
+            </div>
+            <div class="col-md-2 col-lg-4" style="background-color: blue;height: 500px;">
+
+            </div>
+            <div class="col-md-2 col-lg-6" style="background-color: chocolate;height: 500px;">
+
+            </div>
+            <div class="col-md-2 col-lg-6" style="background-color: pink ;height: 500px;">
+
+            </div>
+        </div>
+    </section>
+
+    <section id="Acerca-de-mi" class="container text-center my-5">
+
+
+        <h2 class="display-3 fw-bold my-4">Acerca de mi</h2>
+
+        <p class="my-4">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio quisquam distinctio, odit laborum aliquam
+            earum itaque cum sequi, dolorem optio vol
+        </p>
+
+
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <!--icono especial importado-->
+                <i class="fas fa-camera fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Fotógrafa de comida</h3>
+                <p class="my-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <!--icono especial importado-->
+                <i class="fas fa-bullhorn fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Crítica culinaria</h3>
+                <p class="my-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <!--icono especial importado-->
+                <i class="far fa-map fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Bloggera de viajes</h3>
+                <p class="my-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Mis-trabajos" class="my-5 p-5 bg-info">
+
+        <h2 class="display-4 fw-bold text-center text-light mb-3">Mis trabajos</h2>
+
+        <div class="row">
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(./imagenes/card-1.jpg)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Asado en la Patagonia</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Explicabo iure sint, perspiciatis distinctio molestias nihil
+                            repudiandae neque rem adipisci repellendus libero illo quo
+                            blanditiis, velit quasi ad, recusandae voluptates officia.
+                        </p>
+                        <button type="button" class="btn btn-outline-info">
+                            Ver más
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(./imagenes/card-2.jpg)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Papas del fin del mundo</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Deserunt a culpa doloremque voluptatem dicta nam. Maxime ipsum,
+                            consequatur quos error fuga excepturi quo. Laudantium optio
+                            pariatur laboriosam modi, ea molestias?
+                        </p>
+                        <button type="button" class="btn btn-outline-info">
+                            Ver más
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(./imagenes/card-3.jpg)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Salmones de Alaska</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Obcaecati facere quibusdam sint id laborum magni velit ducimus
+                            corporis facilis qui architecto dolor, accusamus eveniet
+                            exercitationem fugit. Quod autem neque ducimus.
+                        </p>
+                        <button type="button" class="btn btn-outline-info">
+                            Ver más
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section id="Contacto">
+        <h2 class="text-center my-5 fw-bold">Contactame</h2>
+        <p class="text-center my-4 w-50 mx-auto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minima nihil modi vitae, veritatis ipsum ab fuga perspiciatis et eaque a vero, pariatur, reprehenderit suscipit iure at dolore est asperiores?
+        </p>
+        <!-- En formularios en method si dice:
+            - get: es porque el formulario va a 
+            realizar una busqueda en base de datos con la 
+            info que cargamos en el formulario
+            - post: el formulario guarda en base de datos la informacion
+            que cargamos en el formulario -->
+        <form class="w-50 mx-auto" action="" method="get" novalidate>
+            <div class="form-group mb-3">
+                <label class="mb-2" for="nombre">Nombre completo</label>
+                <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+            </div>
+            <div class="form-group mb-3">
+                <label class="mb-2"  for="mail">Correo electrónico</label>
+                <input class="form-control" type="email" name="mail" id="mail" placeholder="nombre@mail.com" required>
+            </div>
+            <div class="form-group mb-3">
+                <label class="mb-2"  for="telefono">Teléfono de contacto</label>
+                <input class="form-control" type="number" name="telefono" id="telefono" placeholder="3624123456" readonly>
+            </div>
+            <div class="form-group mb-3">
+                <label class="mb-2"  for="mensaje">Mensaje</label>
+                <textarea class="form-control" name="mensaje" id="mensaje" placeholder="Escriba aquí su mensaje"></textarea>
+            </div>
+            <div class="form-group mb-3">
+                <label class="mb-2"  for="color">Ingresa tu color favorito</label>
+                <input type="color" class="form-control form-control-color" name="" id="">
+            </div>
+            <div class="form-group mb-3">
+                <label class="mb-2"  for="fch">Fecha de nacimiento</label>
+                <input class="form-control" type="date" name="" id="">
+            </div>
+            <div class="form-group mb-3">
+                <label class="mb-2"  for="menu">Seleccione item del menu</label>
+                <select class="form-control" name="menu" id="">
+                    <option value="uno">1</option>
+                    <option value="dos">2</option>
+                    <option value="tres">3</option>
+                </select>
+                
+            </div>
+            <div class="form-group mb-3">
+                <label class="mb-2"  for="menu2">Seleccione varios items</label>
+                <select class="form-control" name="menu2" id="" multiple>
+                    <option value="uno">1</option>
+                    <option value="dos">2</option>
+                    <option value="tres">3</option>
+                </select>
+            </div>
+            <div class="container">
+                <p>
+                    Seleccione items
+                </p>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="lista" id="" checked>
+                    <label class="form-check-label" for="pan">Pan</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="lista" id="">
+                    <label class="form-check-label" for="yerba">Yerba</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="lista" id="">
+                    <label class="form-check-label" for="cafe">Café</label>
+                </div>
+            </div>
+            <div class="container">
+                <p>Seleccione un turno</p>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="turno" id="manana">
+                    <label for="manana" class="form-check-label"> Turno Mañana</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="turno" id="tarde" checked>
+                    <label for="tarde" class="form-check-label"> Turno Tarde</label>
+                </div>
+            </div>
+            <div class="container">
+                <label for="precio" class="form-label"> Rango de precios</label>
+                <input type="range" class="form-range" name="precio" id="">
+            </div>
+
+            <div class="my-4 text-end">
+                <button class="btn btn-info text-light">Enviar mensaje</button>
+            </div>
+
+
+        </form>
+    </section>
+
+
+
+    <footer class="bg-dark text-center text-light p-4">
+        <p class="mb-0">Chicas Programadoras 2024. Todos los derechos reservados.</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
